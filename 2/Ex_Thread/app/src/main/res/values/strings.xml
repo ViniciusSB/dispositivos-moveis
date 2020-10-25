@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Ex_Thread</string>
+    <string name="valor_inicial">10</string>
+    <string name="botao">Iniciar Contagem Regressiva</string>
+</resources>
