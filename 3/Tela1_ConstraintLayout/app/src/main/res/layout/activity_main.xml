@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txt_nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_nome"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edt_nome"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBaseline_toBaselineOf="@+id/txt_nome"
+        app:layout_constraintStart_toEndOf="@+id/txt_nome" />
+
+    <TextView
+        android:id="@+id/txt_idade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_idade"
+        app:layout_constraintStart_toEndOf="@+id/edt_nome"
+        app:layout_constraintTop_toTopOf="@+id/txt_nome" />
+
+    <EditText
+        android:id="@+id/edt_idade"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBaseline_toBaselineOf="@+id/txt_idade"
+        app:layout_constraintStart_toEndOf="@+id/txt_idade" />
+
+    <TextView
+        android:id="@+id/txt_nomePai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/txt_nomePai"
+        app:layout_constraintStart_toStartOf="@+id/txt_nome"
+        app:layout_constraintTop_toBottomOf="@+id/txt_nome" />
+
+    <EditText
+        android:id="@+id/edt_nomePai"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBaseline_toBaselineOf="@+id/txt_nomePai"
+        app:layout_constraintStart_toEndOf="@+id/txt_nomePai" />
+
+    <TextView
+        android:id="@+id/txt_nomeMae"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/txt_nomeMae"
+        app:layout_constraintStart_toStartOf="@+id/txt_nomePai"
+        app:layout_constraintTop_toBottomOf="@+id/txt_nomePai" />
+
+    <EditText
+        android:id="@+id/edt_nomeMae"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBaseline_toBaselineOf="@+id/txt_nomeMae"
+        app:layout_constraintStart_toEndOf="@+id/txt_nomeMae" />
+
+    <TextView
+        android:id="@+id/txt_rua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/txt_rua"
+        app:layout_constraintStart_toStartOf="@+id/txt_nomeMae"
+        app:layout_constraintTop_toBottomOf="@+id/txt_nomeMae" />
+
+    <EditText
+        android:id="@+id/edt_rua"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBaseline_toBaselineOf="@+id/txt_rua"
+        app:layout_constraintStart_toEndOf="@+id/txt_rua"/>
+
+    <TextView
+        android:id="@+id/txt_numero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_numero"
+        app:layout_constraintStart_toEndOf="@+id/edt_rua"
+        app:layout_constraintTop_toTopOf="@+id/txt_rua" />
+
+    <EditText
+        android:id="@+id/edt_numero"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBaseline_toBaselineOf="@+id/txt_numero"
+        app:layout_constraintStart_toEndOf="@+id/txt_numero" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

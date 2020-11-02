@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txt_nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_nome"></TextView>
+
+    <EditText
+        android:id="@+id/edt_nome"
+        android:layout_alignBaseline="@id/txt_nome"
+        android:layout_toRightOf="@id/txt_nome"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"></EditText>
+
+    <TextView
+        android:id="@+id/txt_idade"
+        android:layout_toRightOf="@id/edt_nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_idade"></TextView>
+
+    <EditText
+        android:id="@+id/edt_idade"
+        android:layout_alignBaseline="@id/txt_idade"
+        android:layout_toRightOf="@id/txt_idade"
+        android:inputType="number"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"></EditText>
+
+    <TextView
+        android:id="@+id/txt_nomePai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_nomePai"
+        android:layout_below="@id/txt_nome"
+        android:layout_marginTop="10dp"></TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/txt_nomePai"
+        android:layout_alignBaseline="@id/txt_nomePai"></EditText>
+
+    <TextView
+        android:id="@+id/txt_nomeMae"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_nomeMae"
+        android:layout_below="@id/txt_nomePai"
+        android:layout_marginTop="10dp"></TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/txt_nomeMae"
+        android:layout_alignBaseline="@id/txt_nomeMae"></EditText>
+
+    <TextView
+        android:id="@+id/txt_rua"
+        android:layout_below="@id/txt_nomeMae"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_rua"></TextView>
+
+    <EditText
+        android:id="@+id/edt_rua"
+        android:layout_alignBaseline="@id/txt_rua"
+        android:layout_toRightOf="@id/txt_rua"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"></EditText>
+
+    <TextView
+        android:id="@+id/txt_numero"
+        android:layout_toRightOf="@id/edt_rua"
+        android:layout_alignBaseline="@id/edt_rua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_numero"></TextView>
+
+    <EditText
+        android:id="@+id/edt_numero"
+        android:layout_alignBaseline="@id/txt_numero"
+        android:layout_toRightOf="@id/txt_numero"
+        android:layout_width="80dp"
+        android:inputType="number"
+        android:layout_height="wrap_content"></EditText>
+
+
+
+
+
+</RelativeLayout>

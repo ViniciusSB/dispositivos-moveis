@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Tela1_RelativeLayout</string>
+    <string name="txt_nome">Nome:</string>
+    <string name="txt_idade">Idade:</string>
+    <string name="txt_nomePai">Nome do Pai:</string>
+    <string name="txt_nomeMae">Nome da Mãe:</string>
+    <string name="txt_rua">Rua:</string>
+    <string name="txt_numero">Número:</string>
+</resources>
